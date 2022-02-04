@@ -4,3 +4,8 @@ body {
     background-color: maroon;
     font-family: 'Oxygen', sans-serif;
 }
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
