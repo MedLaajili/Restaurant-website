@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    color: aliceblue;
+    color: whitesmoke;
     background-color: whitesmoke;
     font-family: 'Oxygen', sans-serif;
 }
@@ -40,4 +40,30 @@ body {
 img{
     width: 50px;
     height: 50px;
+}
+#nav-list{
+    margin-top: 10px;
+    background-color:rgb(51, 30, 30); ;
+}
+#nav-list a{
+    color: tomato;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: rgb(51, 30, 30);
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+#phone{
+    margin-top: 5px;
+}
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div{
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
 }
