@@ -1,11 +1,17 @@
 body {
     font-size: 16px;
     color: aliceblue;
-    background-color: maroon;
+    background-color: rgb(51, 30, 30);
     font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
-    background-color: gray;
+    background-color: whitesmoke;
     border-radius: 0;
     border: 0;
+}
+#logo-img {
+    background: url(images/logo.jpg) no-repeat;
+    width: 150px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
 }
