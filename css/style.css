@@ -141,6 +141,10 @@ img{
         letter-spacing: .1em;
         text-transform: uppercase;
     }
+    #menu-title, #specials-title{
+        width: 360px;
+        margin: 0 auto 15px;
+    }
 }
 /* Home page */
 #main-content img{
