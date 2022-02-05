@@ -126,3 +126,6 @@ img{
         margin-right: 5px;
     }
 }
+#main-content img{
+    width: fit-content;
+}
