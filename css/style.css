@@ -5,7 +5,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
-    background-color: gray;
+    background-color: whitesmoke;
     border-radius: 0;
     border: 0;
 }
@@ -43,14 +43,14 @@ img{
 }
 #nav-list{
     margin-top: 10px;
-    background-color:gray;
+    background-color:whitesmoke;
 }
 #nav-list a{
     color: rgb(185, 149, 82);
     text-align: center;
 }
 #nav-list a:hover{
-    background: gray;
+    background: whitesmoke;
 }
 #nav-list a span{
     font-size: 1.8em;
@@ -63,12 +63,12 @@ img{
     padding-bottom: 0;
 }
 #phone div{
-    color: whitesmoke;
+    color: gray;
     text-align: right;
     padding-right: 15px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-    border: 1px solid whitesmoke;
+    border: 1px solid rgb(185, 149, 82);
 }
 .navbar-header button.navbar-toggle{
     clear: both;
@@ -83,7 +83,14 @@ img{
 
 /******* Medium devices only ********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    /* HEADER */
+    #logo-img {
+        background: url(C:\Users\laaji\OneDrive\Bureau\restaurant\Restaurant-website\images/logo.png) no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    /* END HEADER */
 }
 
 /******* Small devices only ********/
@@ -93,5 +100,25 @@ img{
 
 /******* Extra small devices only ********/
 @media (max-width: 767px) {
-
+    /* Header */
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{ /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p{ /* Kosher cert */
+        text-transform: capitalize;
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img{/* Star-K */
+        height: 30px;
+        width: 30px;
+    }
+    #collapsable-nav a{ /* Collapsed nav menu glyph */
+        font-size: 1.2em;
+    }
 }
