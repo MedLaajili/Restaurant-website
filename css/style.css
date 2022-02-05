@@ -125,13 +125,29 @@ img{
         font-size: 1em;
         margin-right: 5px;
     }
+    #call-btn>a{
+        font-size: 1.5em;
+        display: block;
+        margin: 10px 20px 0px 20px;
+        padding: 10px;
+        border: 2px solid rgb(185, 149, 82);
+        background-color: whitesmoke;
+        color: rgb(185, 149, 82);
+    }
+    #xs-deliver{
+        color: gray;
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
 }
 #main-content img{
     width: 100%;
 }
-.jumbotron{
+ .container .jumbotron{
     margin-top: 30px;
-    padding:0%;
+    padding:0;
     box-shadow: 0 0 50px rgb(185, 149, 82);
     border: 2px solid rgb(185, 149, 82);
 }
