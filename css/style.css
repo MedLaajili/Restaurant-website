@@ -163,3 +163,23 @@ img{
 #menu-title:hover, #specials-title:hover, #map-title:hover {
     box-shadow: 0 1px 5px 1px #cccccc;
 } 
+#menu-title{
+    background: url('../images/menu.jpg') no-repeat;
+    background-position: center;
+}
+#specials-title{
+    background: url('../images/specials.png') no-repeat;
+    background-position: center;
+}
+#menu-title span, #specials-title span, #map-title span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
