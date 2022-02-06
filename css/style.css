@@ -244,4 +244,9 @@ img{
     background-color: #000;
     color: #fff;
     opacity: .8;
+} /* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+#main-content h2, div{
+    color: rgb(185, 149, 82);
 }
