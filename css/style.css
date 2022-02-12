@@ -201,6 +201,12 @@ img{
         width: 280px;
         margin: 0 auto 15px;
     }
+    .col-xxs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 
 }
 
