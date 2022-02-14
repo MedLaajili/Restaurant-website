@@ -296,6 +296,10 @@ img{
 .menu-item-tile {
     margin-bottom: 25px;
 }
+.menu-item-tile img{
+    width: 250px;
+    height: 150px;
+}
 .menu-item-tile hr {
     width: 80%;
 }
