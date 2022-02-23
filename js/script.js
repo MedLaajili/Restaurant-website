@@ -35,4 +35,4 @@ $(function () { //Same as document.addEventListener("DOMContentLoaded"...)
         false);
     });
     global.$dc = dc
-});
+})(window);
